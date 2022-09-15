@@ -1,0 +1,138 @@
+mundo 3 em python.
+
+Tuplas : variaveis compostas.
+	que guarda mais do que 1 valor.
+	indices: de 0 até o numero definido
+	0,1,2,3.  = 4
+
+fatiamento simples 
+	print(lanche[1:])
+	print(lanche[-1])
+
+	len(lanche) - comprimento 
+
+	for C in lanche :
+		print(C)
+
+	printando todos os itens da Tupla.
+
+	tuplas são imutaveis.
+	
+	voce pode trocar apenas no indice, mas nao sera mudado durante
+	a execução do programa.	
+
+	Tupla = ()
+	Lista = []
+	Dicionario= {}
+
+for comida in lanche:
+	print(lanche)
+for cont in range (0,len(lanche)):
+	print(lanche[cont])
+for pos, comida in enumerate(lanche):
+    print(f'eu vou comer {comida} na posição {pos}')
+
+print(sorted(lanche))
+para poder organizar em ordem alfabetica
+
+print(c.count(n))
+conta quantas x apareceu n na seção
+
+print(c.index(n))  ###indec(n, posição)desloca conforme escolher a posição
+mostra a posição em que ela se encontra.
+
+tupla é imutavel , podendo apenas deletar ela com del(tupla)
+
+exercicios 72 ao 77.
+----------------------------------------------
+
+aula 17 A - Listas[]
+Listas podem ser mutaveis!!!!
+
+.append('') ## para add novo intem na lista
+.insert(posição,'o que quer adicionar')
+delcomida[3] ## deletar da lista
+comida.pop[3]
+comida.remove('')## remover o conteudo
+
+elimina o valor e refaz o indice , automaticamente!!
+
+
+lanche.pop() ## elimina o ultimo elemento
+
+	if 'pizza' in comida:
+		lanche.remove('pizza')
+
+valores = list(range(4,11)) ## cria uma lista ( no caso de 4 a 10)
+
+valores = [ 8,2,5,4,9,3,0]
+valores.sort()  -> organiza do menor para maior
+valores.sort(reverse=True) - > organiza do maior para o menor
+len(valores) - > quantos elementos tem a lista!
+
+
+quando você iguala uma lista com a outra , toda modificação feita em uma
+também será feito na outra ! há uma ligação!!!!!
+
+
+para copiar uma lista :
+
+
+	A = [4, 5, 6, 7]
+	b = A[:]  # copiar a lista A
+	b[2] = 8
+	print(f'{A}')
+	print(f'{b}')
+
+ exercicios 78 ao 83:
+----------------------------------------------------------------
+Aula 18 - lista parte 2
+dados= list()
+pessoas = list()
+pessoas.append(dados[:]) # fazendo uma copia 
+		0	      1  	    2
+pessoas = [['Pedro',25],['Maria', 19],['Joao',32]]
+	        0   1     0        1     0     1 
+
+print(pessoas [1])  >>>>> ['Maria',19]
+
+
+#exercicios 84 ao 89:
+
+----------------------------------------------------------------
+
+aula 19 -  Dicionarios 
+
+dicionario = {}
+
+print(filme.values())  - >  vai printar os valores das keys
+print(filme.keys())     - >  os titulos das keys
+print(filme.items())     - > printa os dois 
+
+-----------------------------------------------------------------
+
+aula 20 --- Funções part 01
+
+Rotina - faz constantemente 
+def - definição de função personalizada
+
+def mostralinha():
+	print('-'*30)
+
+mostralinha()
+ 
+def mensagem(msg):
+	print('-'*40)
+	print(msg)
+	print('-'*40)
+
+mensagem('mesnagem que quiser')
+ 
+
+
+
+
+
+
+
+
